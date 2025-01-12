@@ -21,6 +21,10 @@
 
 .header {
     background-image: url(../portfolio/images/developer.png) url(../portfolio/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top right , top bottom;
+
+
 }
 /* nav styles  */
 nav {
@@ -55,6 +59,20 @@ nav li a {
 }
 
 /* banner styles */
+.content-banner{
+    width: 585px;
+    height: 356px;
+    left: 230px;
+    right: 785px;
+    top: 297px;
+    bottom: 0px;
+}
+.banner {
+    display: flex;
+    justify-content: space-between;
+
+
+}
 .banner-greetings {
     font-family: Open Sans;
     font-size: 45px;
@@ -72,4 +90,8 @@ nav li a {
     font-size: 18px;
     font-weight: 400;
 
+}
+.banner-image {
+    max-width: 584px; ;
+    max-height: 676px;
 }
