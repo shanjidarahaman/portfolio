@@ -66,6 +66,7 @@ nav li a {
     right: 785px;
     top: 297px;
     bottom: 0px;
+    margin: 297px 785px 184px 230px;
 }
 .banner {
     display: flex;
