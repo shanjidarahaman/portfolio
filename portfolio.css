@@ -18,11 +18,14 @@
     border: none;
     
 }
-
+.secondary-bg{
+    background: rgb(255, 248, 243);
+}
 .header {
     background-image: url('../portfolio/images/developer.png'), url('../portfolio/images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top right , top bottom;
+    background-position: top left , bottom right;
+    
 
 
 }
@@ -31,7 +34,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px;
 }
 
 
@@ -48,7 +51,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    margin-right: 51px ;
+    margin-right: 50px ;
 
 }
 
@@ -60,13 +63,11 @@ nav li a {
 
 /* banner styles */
 .content-banner{
-    width: 585px;
-    height: 356px;
-    left: 230px;
-    right: 785px;
-    top: 297px;
-    bottom: 0px;
-    margin: 297px 785px 184px 230px;
+    width: 500px;
+    height: auto;
+    margin: 0px 35px 0px 200px;
+
+    
 }
 .banner {
     display: flex;
@@ -93,6 +94,39 @@ nav li a {
 
 }
 .banner-image {
-    max-width: 584px; ;
-    max-height: 676px;
+    width: 530px;
+    
+
+}
+/* about me style */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+.about-me {
+    border-radius: 10px;
+    margin-top: 130px;
+    text-align: center;
+    padding: 135px 150px;
+    
+    
+}
+ 
+.description-me {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+}
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+
+}
+.item-description {
+    font-weight: bolder;
+
 }
